@@ -1,0 +1,133 @@
+
+.wrapper{
+    background-color: tomato;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 150%;
+    position: absolute;
+    z-index: -1;
+}
+.tabuleiro{
+    top: 10%;
+    background-color: white;
+    width: 800px;
+    height: 800px;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+}
+.preto{
+    background-color: rgb(37, 37, 37);
+    width: 100px;
+    height: 100px;
+    position: relative;
+    z-index: 0;
+    
+}
+.branco{
+    background-color: white;
+    width: 100px;
+    height: 100px;
+    position: relative;
+    z-index: 0;
+}
+#cavalo{
+    top: 10px;
+    left: 110px;
+    width: 80px;
+    height:80px;
+    position: absolute;
+    animation: animation 5s infinite ease;
+    z-index: 1;
+}
+@keyframes animation{
+    5%{
+        top: 110px;
+        left: 110px;
+       
+    }
+    10%{
+        top: 210px;
+        left: 110px;
+
+    }
+    15%{
+        top: 210px;
+        left: 210px;
+    }
+    20%{
+        top: 310px;
+        left: 210px;
+    }
+    25%{
+        top: 410px;
+        left: 210px;
+    }
+    30%{
+        top: 410px;
+        left: 310px;
+    }
+    35%{
+        top: 510px;
+        left: 310px;
+    }
+    40%{
+        top: 610px;
+        left: 310px;
+    }
+    45%{
+        top: 610px;
+        left: 410px;
+    }
+    50%{
+        top: 710px;
+        left: 410px;
+    }
+    55%{
+        top: 610px;
+        left: 410px;
+    }
+    60%{
+        top: 610px;
+        left: 410px;
+    }
+    65%{
+        top: 610px;
+        left: 310px;
+    }
+    70%{
+        top: 510px;
+        left: 310px;
+    }
+    75%{
+        top: 410px;
+        left: 310px;
+    }
+    80%{
+        top: 410px;
+        left: 210px;
+    }
+    85%{
+        top: 310px;
+        left: 210px;
+    }
+    90%{
+        top: 210px;
+        left: 210px;
+
+    }
+    95%{
+        top: 210px;
+        left: 110px;
+
+    }
+    100%{
+        top: 110px;
+        left: 110px;
+
+    }
+}
